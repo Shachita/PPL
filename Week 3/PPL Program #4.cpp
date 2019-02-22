@@ -3,8 +3,8 @@ using std::cin;
 using std::cout;
 
 int main(){
-    int x,digits,sum=0;
-    cout << "Enter the number: ";
+    int x,digits=0,sum=0;
+    //cout << "Enter the number: ";
     cin >> x;
     
     int temp =x;
