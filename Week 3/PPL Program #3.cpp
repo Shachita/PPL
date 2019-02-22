@@ -2,23 +2,32 @@
 using std::cin;
 using std::cout;
 
-int power(int x, int num){
-	int k =x;
-	for(int i= 1; i< num; ++i) x = k*x;
-	return x;
-}
-
-int fact(int num){
-	if(num == 1) return 1;
-	return num * fact(num-1);
+int checkroots(int disc){
+    
 }
 
 int main(){
-	int x;
-	cout << "To calculate: 1- x^2/2! + x^4/4! - x^6/6! + x^8/8! - x^10/10! \nEnter x: ";
-	cin >> x;
+	float a,b,c;
+	cout << "A quadratic equation is in the form of: ax^2+bx+c=0\n";
+	cout << "Enter values for a, b and c: ";
+	cin >> a >> b >> c;
 	
-	cout << 1 - (power(x,2)/ fact(2)) + (power(x,4)/ fact(4)) - (power(x,6)/ fact(6)) + (power(x,8)/ fact(8)) - (power(x,10)/ fact(10)) ; 
+	int desc = (b*b) - (4*a*c);
 	
-	return 0;
+	switch(checkroots(desc)){
+	    case 1 :
+	        cout << "Real and Equal Roots:\n";
+	        cout << "x = " << -b/(2*a);
+	        break;
+	    case 2:
+	        cout << "Real and Different Roots\n"
+	        cout << "x1 = " << (-b + std::sqrt(desc))/(2*a) << "\tx2 = " << (-b - std::sqrt(desc))/(2*a);
+	        break;
+	    case 3:
+	        cout << "Imaginary Roots:\n"
+	        cout << "x1 = " << -b/ (2*a) << "+" << std::sqrt(desc))/(2*a)<< "i\t";
+	        cout << "x2 = " << -b/ (2*a) << "-" << std::sqrt(desc))/(2*a)<< "i\t";
+	}
+	
+	
 }
