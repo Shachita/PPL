@@ -3,7 +3,9 @@ using std::cin;
 using std::cout;
 
 int checkroots(int disc){
-    
+    if(desc==0) return 1;
+    else if(desc>0) return 2;
+    else return 3;
 }
 
 int main(){
@@ -25,8 +27,8 @@ int main(){
 	        break;
 	    case 3:
 	        cout << "Imaginary Roots:\n"
-	        cout << "x1 = " << -b/ (2*a) << "+" << std::sqrt(desc))/(2*a)<< "i\t";
-	        cout << "x2 = " << -b/ (2*a) << "-" << std::sqrt(desc))/(2*a)<< "i\t";
+	        cout << "x1 = " << -b/ (2*a) << "+" << std::sqrt(-desc))/(2*a)<< "i\t";
+	        cout << "x2 = " << -b/ (2*a) << "-" << std::sqrt(-desc))/(2*a)<< "i";
 	}
 	
 	
