@@ -13,6 +13,7 @@ int main(){
 	cout << "A quadratic equation is in the form of: ax^2+bx+c=0\n";
 	cout << "Enter values for a, b and c: ";
 	cin >> a >> b >> c;
+	cout << endl;
 	
 	int desc = (b*b) - (4*a*c);
 	
@@ -27,8 +28,8 @@ int main(){
 	        break;
 	    case 3:
 	        cout << "Imaginary Roots:\n";
-	        cout << "x1 = " << -b/ (2*a) << "+" << std::sqrt(-desc))/(2*a)<< "i\t";
-	        cout << "x2 = " << -b/ (2*a) << "-" << std::sqrt(-desc))/(2*a)<< "i";
+	        cout << "x1 = " << -b/ (2*a) << "+" << std::sqrt(-desc)/(2*a)<< "i\t";
+	        cout << "x2 = " << -b/ (2*a) << "-" << std::sqrt(-desc)/(2*a)<< "i";
 	}
 	
 	
