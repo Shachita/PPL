@@ -5,18 +5,29 @@ using namespace std;
 
 int main(){
 	
-	string a;
+	string a, b, c;
 	cout << "Enter the string: ";
 	cin >> a;
 	
+	char ch;
+	cout << "+ to add n characters\n- to delete n characters\n";
+	cin >> ch;
+	
+	
 	int n;
-	cout << "Give position to enter string: ";
+	cout << "Give position: ";
 	cin >> n;
 	
-	string b;
-	cout << "Enter the string: ";
-	cin >> b;
+	switch(ch){
+		case '+':
+			cout << "Enter the string: ";
+			cin >> b;
+			
+			c = a(0,n-1) + b + a(n,a.size()-1);
+			break;
+		case '-':
+			c = a(n, a.size()-1);
+	}
 	
-	string c = a(0,n-1) + b + a(n,a.size()-1);
 	cout << c;
 }
