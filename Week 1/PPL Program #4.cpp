@@ -1,3 +1,8 @@
+/*
+Week 1 #4
+Write a C program to find the sum of individual digits of a 3 digit number.
+*/
+
 #include <iostream>
 using std::cin;
 using std::cout;
