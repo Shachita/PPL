@@ -1,3 +1,8 @@
+/*
+Week 1 #1
+Write a C program to check whether a number is even or odd using ternary operator.
+*/
+
 #include <iostream>
 using std::cin;
 using std::cout;
