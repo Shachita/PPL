@@ -2,9 +2,14 @@
 using std::cin;
 using std::cout;
 
-int power(int x, int num){
+float power(int x, int num){
 	int k =x;
 	for(int i= 1; i< num; ++i) x = k*x;
+	return x;
+}
+
+int fact(int n){
+	return n==0 ? 1 : fact(n-1)*n;
 }
 
 int main(){
