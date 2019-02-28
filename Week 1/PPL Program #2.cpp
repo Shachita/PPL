@@ -1,3 +1,8 @@
+/*
+Week 1 #2
+Write a C program to perform the addition of two numbers without using + operator.
+*/
+
 #include <iostream>
 using std::cout;
 using std::cin;
