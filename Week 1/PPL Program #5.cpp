@@ -1,3 +1,11 @@
+/*
+Week 1 #5
+Write a C program to read the values of x and y and print the results of the following expressions in one line:
+i.	(x + y) / (x - y)
+ii.	(x + y)(x - y)
+
+*/
+
 #include <iostream>
 using std::cout;
 using std::cin;
