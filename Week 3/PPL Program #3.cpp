@@ -1,6 +1,5 @@
-#include <bits/stdc++.h>
-using std::cin;
-using std::cout;
+#include <iostream>
+using namespace std;
 
 int checkroots(int desc){
     if(desc==0) return 1;

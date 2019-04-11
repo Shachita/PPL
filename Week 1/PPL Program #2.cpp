@@ -1,15 +1,8 @@
-/*
-Week 1 #2
-Write a C program to perform the addition of two numbers without using + operator.
-*/
-
 #include <iostream>
-using std::cout;
-using std::cin;
+using namespace std;
 
 int main(){
 	int a,b;
-	cout << ~-4;
 	cout << "Enter number 1: ";
 	cin >> a;
 	cout << "Enter number 2: ";

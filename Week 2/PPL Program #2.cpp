@@ -1,7 +1,5 @@
-#include <bits/stdc++.h>
-using std::cin;
-using std::cout;
-using std::endl;
+#include <iostream>
+using namespace std;
 
 int main(){
 	int n,a=0,b=1;

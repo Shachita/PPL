@@ -7,10 +7,12 @@ using namespace std;
 bool checkAddition(int a, int b, int c, int d){
 	if(a!=c) return false;
 	if(b!=d) return false;
+	return true;
 }
 
 bool checkMultiplication(int a, int b, int c, int d){
 	if(b!=c) return false;
+	return true;
 }
 
 void TakeMatrix(vector<vector<int> > &mat){

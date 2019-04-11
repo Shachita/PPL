@@ -1,6 +1,5 @@
-#include <bits/stdc++.h>
-using std::cin;
-using std::cout;
+#include <iostream>
+using namespace std;
 
 float power(int x, int num){
 	int k =x;

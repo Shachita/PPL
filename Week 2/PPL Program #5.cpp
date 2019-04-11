@@ -1,7 +1,5 @@
-#include <bits/stdc++.h>
-using std::cin;
-using std::cout;
-using std::endl;
+#include <iostream>
+using namespace std;
 
 int main(){
 	int cp, sp, profit=0, loss=0;

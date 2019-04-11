@@ -1,6 +1,5 @@
 #include <iostream>
-using std::cin;
-using std::cout;
+using namespace std;
 
 int main(){
 	int a,rem=1, sum=0;
